@@ -1,0 +1,37 @@
+
+body{
+    font-size: 17px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#logotipo{
+    width: 100px;
+    height: 100px;
+}
+
+nav a:hover {
+    font-weight: 500;
+}
+
+.img-carousel {
+    object-fit: cover;
+    object-position: 0 30%;
+    height: 80vh;
+}
+
+/* media querry */
+
+@media (min-width: 320px) and (max-width: 768px) {
+    body{
+        font-size: 15px;
+    }
+} 
+
+
+
+
+
+
